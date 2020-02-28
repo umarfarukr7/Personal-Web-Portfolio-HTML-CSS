@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    text-align: justify;
+    font-family: 'Oxanium' ;
+}
+
+.top-banner{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.top-banner h1{
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section{
+    height: 500px;
+    padding-top: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width-text{
+    margin-top: 10%;
+}
+.half-width-text h3{
+    font-size: 24px;
+
+}
+.half-width img{
+    width: 90%;
+}
+.half-width p{
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.hire-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-image: linear-gradient(-50deg, orange, tomato);
+}
+.biography-banner{
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed ;
+}
+.work-area{
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.work-area h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.column {
+    float: left;
+    width: 26.33%;
+    
+    display: table;
+    margin-left: 5%;
+    padding-left: 0%;
+  }
+  .last-area{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .last-area h1{
+    text-align: center;
+}
+  .aligncenter{
+      text-align: center;
+      
+  }
+  
+  .aligncenter img{
+    width: 8%;
+    height: 8%;
+
+  }
+  .t-center{
+      text-align: center;
+      margin-bottom: 30px;
+  }
+.p-center{
+    text-align: center;
+}
+.contact-mail{
+    text-align: center;
+    background-image:linear-gradient(-45deg, yellow, rgb(25, 0, 255));
+    padding: 10px 20px 10px 20px;
+    width: 30%;
+    margin: 10px auto 20px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+
+
+footer p{
+    text-align: center;
+    padding: 5px 20px 10px 20px;
+}
